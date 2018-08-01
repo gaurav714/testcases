@@ -7,9 +7,6 @@ public class Ex1 {
 		System.out.println("enter 1st number ");
 		Scanner sc = new Scanner (System.in);
 		int a=sc.nextInt();
-		//System.out.println("enter 2nd number ");
-		//Scanner sc2 = new Scanner (System.in);
-		//int b=sc2.nextInt();
 		int num=a,num2=a,rem=0,pal=0,add=0,sum=0;
 		while(num>0)
 		{
@@ -40,5 +37,10 @@ public class Ex1 {
 		else
 			System.out.println(a+" is not a palindrome ");
 		
+	}
+
+	public Object func(int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
